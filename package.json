@@ -1,0 +1,18 @@
+{
+  "name": "create-solana-token-ba",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-metadata": "ts-node scripts/createMetadata.ts",
+    "update-metadata": "ts-node scripts/updateMetadata.ts"
+  },
+  "author": "Tudor Iovita <iovitatudor21@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.13.1",
+    "@metaplex-foundation/mpl-token-metadata": "^2.2.2",
+    "@solana/web3.js": "^1.50.0",
+    "ts-node": "^10.9.1"
+  }
+}
