@@ -26,16 +26,17 @@ The example token created here is called `AIds` and the final version exists on 
 
          solana-keygen verify (Publickey/address) ~/my-keypair.json
 
-5. Configure tools to use Solana's `testnet` or `mainnet-beta`:
-   * Testnet:
+   5. Configure tools to use Solana's `testnet` or `mainnet-beta`:
+      * Testnet:
    
-           solana config set --url https://api.testnet.solana.com --keypair ~/my-keypair.json
-   * Mainnet:
+              solana config set --url https://api.testnet.solana.com --keypair ~/my-keypair.json
+      * Mainnet:
 
-            solana config set --url https://api.mainnet-beta.solana.com --keypair ~/my-keypair.json
+              solana config set --url https://api.mainnet-beta.solana.com --keypair ~/my-keypair.json
+      
 6. Confirm Testnet/Mainnet:
 
-            solana config get
+        solana config get
 
 7. For Testnet - Airdrop solana:
 
@@ -80,11 +81,11 @@ The example token created here is called `AIds` and the final version exists on 
 
 1. Transfer Tokens:
 
-         spl-token transfer --fund-recipient {token address} {amount} {recipient address} --allow-unfunded-recipient
+        spl-token transfer --fund-recipient {token address} {amount} {recipient address} --allow-unfunded-recipient
 
-2.Disable feature minting:
+2. Disable feature minting:
 
-        spl-token authorize {token address} mint --disable
+         spl-token authorize {token address} mint --disable
 
 ## Credits
 
