@@ -26,13 +26,13 @@ The example token created here is called `AIds` and the final version exists on 
 
          solana-keygen verify (Publickey/address) ~/my-keypair.json
 
-   5. Configure tools to use Solana's `testnet` or `mainnet-beta`:
-      * Testnet:
+5. Configure tools to use Solana's `testnet` or `mainnet-beta`:
+   * Testnet:
    
-              solana config set --url https://api.testnet.solana.com --keypair ~/my-keypair.json
-      * Mainnet:
+           solana config set --url https://api.testnet.solana.com --keypair ~/my-keypair.json
+   * Mainnet:
 
-              solana config set --url https://api.mainnet-beta.solana.com --keypair ~/my-keypair.json
+           solana config set --url https://api.mainnet-beta.solana.com --keypair ~/my-keypair.json
       
 6. Confirm Testnet/Mainnet:
 
